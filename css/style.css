@@ -1,0 +1,59 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/* navigation */
+.navigation{
+    background-color:#FFF;
+}
+.navigation li a{
+    font-weight: 500;
+    font-size:16px;
+    color: black;
+    margin:0px 12px;
+}
+
+.navigation li .form-check-input{
+    background-color:lightgray  ;
+    border: #efefef;
+}
+.navigation li a i{
+    color:#908888;
+}
+.btn.btn-primary{
+    background-color:rgb(20, 20, 108);
+    color: #FFF;
+    padding:10px 20px;
+    font-weight:500;
+    font-size:18px;
+    border-radius:10px;
+    transition: all linear 0.3s;
+}
+.btn.btn-primary:hover{
+    background-color:black  ;
+}
