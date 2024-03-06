@@ -126,7 +126,7 @@ left: 660px;
   gap: 10px
     
 }
-=======
->>>>>>> 5ef6d07b4a064a09d27978b1e5a6b03137f1f0da
-=======
->>>>>>> 5ef6d07b4a064a09d27978b1e5a6b03137f1f0da
+.feature-11{
+    background-image: linear-gradient(to right,#EDE9FE, blue);
+    
+}
