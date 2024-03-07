@@ -57,8 +57,7 @@ a {
 .btn.btn-primary:hover{
     background-color:black  ;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .slider_section{
     width: 1220px;
 height: 493px;
@@ -126,7 +125,110 @@ left: 660px;
   gap: 10px
     
 }
-.feature-11{
-    background-image: linear-gradient(to right,#EDE9FE, blue);
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-left: 110px;
+    margin-top: 90px;
+
+    justify-content: flex-end;
+  }
+  .card img {
+    width: 503px;
+    height: 503px;
+    flex-shrink: 0;
+    gap: 30px;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 25px;
+    width: 440px;
+    height: 580px;
+    flex: 0 0 calc(100%/3);
+    gap: 30px;
+    display: flex;
     
-}
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
+
+  .container-content{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 28%;
+  }
+  .container-content h2{
+    font-size: 54px;
+    
+
+  }
+  .container-content h6{
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: 2.53px;
+  }
+  .container-content p{
+    font-size: 16.875px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.01px;
+  }
+  .card-text{
+    color: #516880;
+
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: -0.32px;
+
+
+  }
+  .card-body{
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+
+  }
+  .card-detail{
+    display: flex;
+  }
+  .fa-solid {
+    color: #4872FF;
+display: flex;
+font-family: "Plus Jakarta Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.01px;
+  }
+  .know{
+  text-indent: 100%;
+  margin-left: 20px;
+ white-space: nowrap; 
+
+  }
