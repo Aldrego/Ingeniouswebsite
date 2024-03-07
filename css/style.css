@@ -11,24 +11,27 @@
     border: none;
     border-radius: 25px;
     width: 440px;
-height: 500px;
+height: 580px;
 flex-shrink: 0;
-margin-left: 110px;
+margin-left: 30px;
 flex: 0 0 calc(100%/3);
 position: relative;
 display: block;
 
   }
-
+.this{
+  margin-left: 110px;
+}
   .container-content{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 23px;
+    gap: 13px;
     text-align: center;
     margin-top: 50px;
     margin-left: 28%;
+    
   }
   .container-content h2{
     font-size: 54px;
@@ -92,6 +95,10 @@ font-style: normal;
 font-weight: 400;
 line-height: 30.01px;
   }
+
+  .card-title{
+    display: inline;
+  }
   .know{
   text-indent: 50%;
   margin-left: 40px;
@@ -104,6 +111,8 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 30.01px;
+display: inline;
+
 
   }
 
