@@ -153,6 +153,7 @@ left: 660px;
   }
   .carousel-inner {
     padding: 1em;
+    margin-left: 1000px;
   }
   .carousel-control-prev,
   .carousel-control-next {
