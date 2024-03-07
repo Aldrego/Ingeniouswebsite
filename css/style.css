@@ -35,6 +35,7 @@ display: block;
   }
   .container-content h2{
     font-size: 54px;
+    text-align: center;
     
 
   }
@@ -42,12 +43,14 @@ display: block;
     font-size: 23px;
     line-height: 150%;
     letter-spacing: 2.53px;
+    text-align: center;
   }
   .container-content p{
     font-size: 16.875px;
 font-style: normal;
 font-weight: 400;
 line-height: 30.01px;
+text-align: center;
   }
   .carousel-control-prev,
   .carousel-control-next {
@@ -98,6 +101,7 @@ line-height: 30.01px;
 
   .card-title{
     display: inline;
+    text-align: center;
   }
   .know{
   text-indent: 50%;
