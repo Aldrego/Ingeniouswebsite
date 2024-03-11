@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
@@ -6,8 +7,49 @@ body {
 .container {
   margin-right: auto;
   margin-left: auto;
-}
+=======
+.carousel-inner {
+    padding: 1em;
+    
+  }
+  .carousel-item{
+    display: block;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 25px;
+    width: 440px;
+height: 580px;
+flex-shrink: 0;
+margin-left: 30px;
+flex: 0 0 calc(100%/3);
+position: relative;
+display: block;
 
+  }
+.this{
+  margin-left: 110px;
+>>>>>>> f2fab55879ba2b53e37f0247df929635c8e12740
+}
+  .container-content{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 28%;
+    
+  }
+  .container-content h2{
+    font-size: 54px;
+    text-align: center;
+    
+
+<<<<<<< HEAD
 h1,
 h2,
 h3,
@@ -132,3 +174,93 @@ a {
   width: 1176px;
   height: 783px;
 }
+=======
+  }
+  .container-content h6{
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: 2.53px;
+    text-align: center;
+  }
+  .container-content p{
+    font-size: 16.875px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.01px;
+text-align: center;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+    .carousel-inner {
+      display: flex;
+    }
+  }
+  .card .img-wrapper {
+      max-width: 100%;
+      height: 13em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .card img {
+      max-height: 100%;
+      width: 503px;
+      height: 503px;
+      flex-shrink: 0;
+      gap: 30px;
+  }
+  
+  .card-detail{
+    display: flex;
+  }
+  .fa-solid {
+    color: #4872FF;
+display: flex;
+font-family: "Plus Jakarta Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.01px;
+  }
+
+  .card-title{
+    display: inline;
+    text-align: center;
+  }
+  .know{
+  text-indent: 50%;
+  margin-left: 40px;
+margin-inline-start: 20px;
+ white-space: nowrap; 
+ color: #4872FF;
+margin-bottom: auto;
+font-family: "Plus Jakarta Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.01px;
+display: inline;
+
+
+  }
+
+  
+  @media (max-width: 767px) {
+    .card .img-wrapper {
+      height: 17em;
+    }
+  }
+>>>>>>> f2fab55879ba2b53e37f0247df929635c8e12740
