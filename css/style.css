@@ -1,8 +1,11 @@
 body {
-
-    margin: 0;
-    padding: 0;
-    font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 h1,
@@ -11,49 +14,121 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
-
-
 
 /* navigation */
-.navigation{
-    background-color:#FFF;
+.navigation {
+  background-color: #fff;
 }
-.navigation li a{
-    font-weight: 500;
-    font-size:16px;
-    color: black;
-    margin:0px 12px;
+.navigation li a {
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 17.438px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.01px;
+  margin: 0px 10px;
 }
 
-.navigation li .form-check-input{
-    background-color:lightgray  ;
-    border: #efefef;
+.navigation li .form-check-input {
+  background-color: #939393;
+  border: #efefef;
 }
-.navigation li a i{
-    color:#908888;
+
+.navigation li a img {
+  color: #908888;
+  width: 20px;
 }
-.btn.btn-primary{
-    background-color:rgb(20, 20, 108);
-    color: #FFF;
-    padding:10px 20px;
-    font-weight:500;
-    font-size:18px;
-    border-radius:10px;
-    transition: all linear 0.3s;
+.btn.btn-primary {
+  background-color: #2f288b;
+  font-family: "Plus Jakarta Sans";
+
+  color: #fff;
+  padding: 13px 16.467px 13px 16.813px;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #2f288b;
+
+  transition: all linear 0.3s;
+  text-align: center;
 }
-.btn.btn-primary:hover{
-    background-color:black  ;
+.btn.btn-primary:hover {
+  background-color: black;
+}
+.about-app h2 {
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 85.5px */
+}
+.about-app p {
+  color: #222;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16.875px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.01px; /* 177.837% */
+}
+.about-app span {
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.about-app .mobile-img img {
+  width: 1176px;
+  height: 783px;
+  top: 78px;
+  left: 547px;
+}
+.dropdown-toggle:after {
+  content: "\f107";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  border: 0;
+  vertical-align: middle;
+}
+.about-app .app-detail {
+  padding: 40px 0;
+}
+.about-app .app-detail span {
+  color: #222;
+  font-feature-settings: "liga" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.about-app .app-box img {
+  width: 75.061px;
+  height: 25.054px;
+  border: solid 1px #444444;
+  border-radius: 5px;
+  justify-items: center;
+}
+.col {
+  background-image: url("../img/Group\ 679.png");
+}
+.col .mob-img img {
+  width: 1176px;
+  height: 783px;
 }
